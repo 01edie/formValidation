@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="form validation">
+  <title>form validation</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles/stylee.css">
+</head>
+<body>
+  <main class="container">
+    <form action="#">
+      <h2>Connect with us</h2>
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" class="username" id="username" placeholder="Enter Username">
+        <small>Username is Required!</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" class="email" id="email" placeholder="Enter Email Address">
+        <small>Email is required</small>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="text" class="password" id="password" placeholder="Enter password">
+        <small>Password is required</small>
+      </div>
+      <div class="form-control">
+        <label for="confirm-password">Password</label>
+        <input type="text" class="confirm-password" id="confirm-password" placeholder="Confirm password">
+        <small>Confirm Password is required</small>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
